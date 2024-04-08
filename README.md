@@ -7,4 +7,4 @@ The project includes examples of sorting arrays of integers and strings.
 
 **Testing**
 
-I used Jest for unit testing and 
+I used Jest for unit testing
