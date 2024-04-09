@@ -2,11 +2,11 @@ const sortNumber = require('./sortNumbers.js');
 
 test('sortNumber should sort the array in ascending order', () => {
     const input = [5, 2, 8, 9, 1];
-    const expectedOutput = [1, 2, 5, 8, 9];
-//test test for sortNumber
-    const result = sortNumber(input);
+    const Output = [1, 2, 5, 8, 9];
+
+// test for sortnumbers
 try{
-    expect(result).toEqual(expectedOutput);
+    expect(sortNumber(input)).toEqual(Output);
 } catch (error) {
     console.log(error);
 }
