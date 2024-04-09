@@ -4,7 +4,7 @@ const sortStrings = require('./sortStrings.js');
 //test for sortStrings
 test('sorts an array of strings', () => {
     const input = ["apple", "banana", "mango", "cherry", "orange"];
-    // expected output
+    
     const output = ["apple", "banana", "cherry", "mango","orange" ];
     try {
     expect(sortStrings(input)).toEqual(output);
